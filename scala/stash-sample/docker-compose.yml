@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  stash-sample:
+    build:
+      context: ./docker/service
+      dockerfile: Dockerfile
+    environment:
+      PORT: 4535
+    ports:
+      - 4535:4535
+    expose:
+      - 4535
