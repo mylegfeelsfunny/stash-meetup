@@ -3,10 +3,13 @@ Stash Sample
 
 Setup
 -----
+## Mac
   1. Install Homebrew - https://github.com/Homebrew/install
   2. Install scala - `brew update && brew install scala`
   3. Install sbt - `brew install sbt`
 
+## Windows friends
+[Scala](https://www.scala-lang.org/download/)
 
 How to Compile
 ------------
